@@ -1,0 +1,103 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contractAddress {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.contractAddress span {
+    margin-right: 15px;
+}
+
+.contractAddress a {
+    text-decoration: underline;
+    color: #36ffe3;
+}
+
+.contractAddress p {
+    color: #36ffe3;
+}
+.contractAddress p span {
+    color: yellow;
+}
+
+.main h2 {
+    font-size: 2.5rem;
+    font-family: serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #1ed518;
+    font-weight: 900;
+}
+
+.table {
+    text-align: left;
+    font-family: monospace;
+    color: rgb(7, 232, 244)
+}
+
+.tableHead {
+    font-size: 2rem;
+    border: 1px solid green;
+    padding: 1rem;
+    font-family: monospace;
+}
+
+.tableData {
+    border: 1px solid green;
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.title {
+    color: #d9eb0f;
+    text-decoration: none;
+    align-items: left;
+    justify-content: left;
+}
+
+.title :hover,
+.title :focus,
+.title :active {
+    text-decoration: underline;
+}
+
+.title {
+    margin: 3rem 3rem 1rem 3rem;
+    line-height: 1;
+    font-size: 2.5rem;
+    font-family: serif;
+    text-align: center;
+}
